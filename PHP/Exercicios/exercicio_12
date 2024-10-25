@@ -1,0 +1,26 @@
+<?php
+
+$Cadastro = [];
+
+$Cadastro ['Nome'] = ['Ana','Lucas','Manu','Ingrid','Daniel'];
+
+$Cadastro ['Email'] = ['Ana.65@gmail.com','Lucas.Lira@gmail.com','Manu.76@gmail.com','Ingrid.Silva@gmail.com','Daniel.Oliveira@gmail.com'];
+
+ echo '<pre>';
+ print_r($Cadastro);
+ echo $Cadastro ['Nome'][3]; 
+ echo '<br>';
+ echo $Cadastro ['Email'][4]; 
+ echo "<hr>"; 
+ echo '</pre>';
+ echo '<br>';
+
+ $Cadastro ['Nome'] [2] = "Senai"; 
+ $Cadastro ['Email'] [0] = "Aluno@Senai.br";
+
+ echo'<pre>';
+ print_r($Cadastro);
+ echo '$Cadastro';
+ echo '</pre>'; 
+
+ ?>

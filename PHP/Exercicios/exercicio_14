@@ -1,0 +1,26 @@
+<?php
+
+$usuarios= [
+    [ "id"=> "1",
+      "nome"=>"Joao",
+      "cidade"=> "Cerquilho"],
+      "estado"=> "SP", 
+    [ "id"=> "2",
+      "nome"=>"Ana",
+      "cidade"=> "Rio de Janeiro"], 
+      "estado"=> "RJ", 
+    [ "id"=> "3",
+      "nome"=>"Pedro",
+      "cidade"=> "Sao Paulo"],
+      "estado"=> "SP", 
+    [ "id"=> "4",
+      "nome"=>"Ingrid",
+      "cidade"=> "Piracicaba"],
+      "estado"=> "SP", 
+    ["id"=> "5",
+      "nome"=>"Maria",
+      "cidade"=> "Balneario"],
+      "estado"=> "SC", 
+];
+
+?>
